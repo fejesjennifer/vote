@@ -1,0 +1,28 @@
+.questions{
+
+    border:2px;
+    border-color: pink;
+    border-style: dotted;
+    margin:10px;
+    padding:10px;
+}
+
+.upvote::before
+{
+    content:"⇑";
+
+}
+.downvote::before{
+    content: "⇓";
+}
+.upvote
+{
+    color:green;
+    display: table-cell;
+    padding-right: 10px;
+}
+.downvote
+{
+    color: red;
+    display: table-cell;
+}
