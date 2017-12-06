@@ -14,4 +14,5 @@ if (isset($_GET['down'])) {
 $kerdesek = $m->getQuestions();
 
 require('../view/list.php');
+//git
 ?>
